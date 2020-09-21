@@ -1,0 +1,17 @@
+code --list-extensions | xargs -L 1 echo code --install-extension > extensions.txt
+
+
+code --install-extension bmewburn.vscode-intelephense-client
+code --install-extension dbaeumer.vscode-eslint
+code --install-extension eamodio.gitlens
+code --install-extension EditorConfig.EditorConfig
+code --install-extension esbenp.prettier-vscode
+code --install-extension formulahendry.auto-close-tag
+code --install-extension formulahendry.code-runner
+code --install-extension grogdunn.netbeans-keybindings
+code --install-extension ms-azuretools.vscode-docker
+code --install-extension ms-dotnettools.csharp
+code --install-extension PKief.material-icon-theme
+code --install-extension ryuta46.multi-command
+code --install-extension trinm1709.dracula-theme-from-intellij
+code --install-extension vincaslt.highlight-matching-tag
